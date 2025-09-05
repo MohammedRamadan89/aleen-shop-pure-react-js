@@ -1,0 +1,106 @@
+{
+    "productCard": {
+        "remove": "إزالة",
+        "added": "تمت الإضافة",
+        "addToCart": "إضافة الى السلة",
+        "outOfStock": "غير متوفر",
+        "inStock": "متوفر",
+        "save": "وفر",
+        "newProduct": "جديد",
+        "discount": "خصم"
+    },
+    "categoryPage": {
+        "main": {
+            "allProducts": {
+                "title": " كل المنتجات",
+                "description": "تصفح تشكيلتنا الكاملة من المنتجات عبر جميع الفئات واختر ما يناسبك."
+            },
+            "electronics": {
+                "title": "مجموعة الإلكترونيات",
+                "description": "اكتشف أحدث الأجهزة الإلكترونية ومنتجات التكنولوجيا المتطورة"
+            },
+            "clothing": {
+                "title": "مجموعة الملابس",
+                "description": "استكشف تشكيلتنا من الأزياء والملابس لجميع المناسبات"
+            },
+            "food": {
+                "title": "مجموعة الأطعمة",
+                "description": "اكتشف أشهى الأطعمة والمنتجات المميزة لكل الأذواق"
+            }
+        },
+        "subCategories": {
+            "electronics": "إلكترونيات",
+            "clothing": "ملابس",
+            "food": "أطعمة"
+        },
+        "breadcrumb": {
+            "home": "الرئيسية"
+        }
+    },
+    "subcategory": {
+        "subcategoryTitle": "تصفح من خلال الفئات الفرعية"
+    },
+    "viewAll": "عرض الكل",
+    "available": "منتجات متاحة",
+    "categoryOverview": "نظرة عامة على الفئة",
+    "total": "إجمالي المنتجات",
+    "avgPrice": "متوسط السعر",
+    "avgRating": "متوسط التقييم",
+    "onSale": "العروض المتاحة",
+    "priceRange": "نطاق السعر",
+    "showingProducts": "عرض {{start}}-{{end}} من أصل {{total}} منتج",
+    "filters": {
+        "searchPlaceholder": "ابحث عن المنتجات...",
+        "sortBy": "ترتيب حسب",
+        "sort": {
+            "name": "الاسم (أ-ي)",
+            "priceLow": "السعر (من الأقل للأعلى)",
+            "priceHigh": "السعر (من الأعلى للأقل)",
+            "rating": "الأعلى تقييماً"
+        },
+        "filter": "تصفية",
+        "all": "جميع المنتجات",
+        "under50": "أقل من $50",
+        "50to100": "من $50 الى $100",
+        "over100": "أكثر من $100",
+        "highRated": "4.5+ نجوم",
+        "inStock": "متوفر في المخزون",
+        "onSale": "تخفيضات"
+    },
+    "buyNow": "اشتر الآن",
+    "productDetails": {
+        "details": {
+            "title": "تفاصيل المنتج",
+            "description": "مصنوع من أجود أنواع القطن المخلوط لراحة فائقة ودفء مثالي في جميع الأوقات"
+        },
+        "quality": {
+            "title": "ضمان الجودة",
+            "description": "نضمن لك جودة المنتج وإمكانية الاستبدال خلال 30 يوماً من تاريخ الشراء"
+        },
+        "reviews": {
+            "title": "تقييم العملاء",
+            "description": "عدد التقييمات : {{count}} متوسط التقييم : {{rating}}"
+        },
+        "breadcrumbs": {
+            "home": "الرئيسية"
+        },
+        "notFound": "لم يتم العثور على المنتج",
+        "notFoundDescription": "المنتج المطلوب غير موجود أو قد يكون الرابط غير صحيح",
+        "goBack": "العودة"
+    },
+    "reviews": "تقييم",
+    "productOptions": {
+        "size": "الحجم",
+        "color": "اللون",
+        "quantity": "الكمية"
+    },
+    "colors": {
+        "Black": "أسود",
+        "White": "أبيض",
+        "Gray": "رمادي",
+        "Navy": "كحلي",
+        "red": "أحمر",
+        "blue": "أزرق",
+        "green": "أخضر"
+    }
+}

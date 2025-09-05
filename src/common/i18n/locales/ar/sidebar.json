@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": "الإدارة الرئيسية",
+    "sales": "المبيعات والعملاء",
+    "system": "النظام والإعدادات"
+  },
+  "dashboard": "لوحة التحكم",
+  "products": "المنتجات",
+  "categories": "الفئات",
+  "orders": "الطلبات",
+  "customers": "العملاء",
+  "offers": "العروض",
+  "payments": "المدفوعات",
+  "reports": "التقارير",
+  "storeSettings": "إعدادات المتجر",
+  "analytics": "التحليلات",
+  "support": "الدعم الفني",
+  "settings": "الإعدادات"
+}

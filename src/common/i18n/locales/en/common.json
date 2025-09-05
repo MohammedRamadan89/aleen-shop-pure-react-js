@@ -1,0 +1,29 @@
+{
+    "notification": {
+        "productAdded": "Product added to Cart",
+        "productRemoved": "Product removed from Cart"
+    },
+    "about": {
+        "title": "About Us",
+        "description": "We are an online store offering a variety of products with high quality and excellent customer service. We strive to provide an easy and safe shopping experience for all our customers.",
+        "placeholderNote": "(The names and images of the team are placeholders for demonstration purposes only)",
+        "team": "Our Team"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "description": "If you have any questions or suggestions, feel free to contact us using the form below:",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Your Message",
+        "sendButton": "Send Message"
+    },
+    "notFound": {
+        "title": "Sorry, the page is not found",
+        "description": "The page you are looking for may have been deleted or moved to another site, or there might be an error in the link.",
+        "buttons": {
+            "goHome": "Go to Home",
+            "goBack": "Go Back"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "cartEmpty": {
+        "goBack": "Go back",
+        "emptyTitle": "Your cart is empty",
+        "emptyMessage": "Looks like you haven't added any items yet.",
+        "browse": "Browse Products"
+    },
+    "cartItems": {
+        "size": "Size",
+        "color": "Color",
+        "removeItem": "Remove {{name}} from cart",
+        "increase": "Increase quantity",
+        "decrease": "Decrease quantity"
+    },
+    "goBack": "Go back",
+    "shoppingCart": "Shopping Cart",
+    "itemsCount": "{{count}} item",
+    "itemsCount_plural": "{{count}} items",
+    "cartSummary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "Free",
+    "tax": "Tax",
+    "total": "Total",
+    "proceedCheckout": "Proceed to Checkout"
+}

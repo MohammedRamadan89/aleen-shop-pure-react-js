@@ -1,0 +1,44 @@
+{
+    "MyStore": "MyStore",
+    "dashboard": "Dashboard",
+    "Home": "Home",
+    "About": "About",
+    "Contact": "Contact",
+    "Cart": "Cart",
+    "logout": "Logout",
+    "Sign in": "Sign In",
+    "my account": "My Account",
+    "Orders": "Orders",
+    "menu": {
+        "profile": {
+            "label": "My Profile",
+            "description": "View and modify personal data"
+        },
+        "orders": {
+            "label": "My Orders",
+            "description": "Track orders"
+        },
+        "favorites": {
+            "label": "Favorites",
+            "description": "Saved products"
+        },
+        "notifications": {
+            "label": "Notifications",
+            "description": "Manage notifications"
+        },
+        "settings": {
+            "label": "Settings",
+            "description": "Customize the app"
+        }
+    },
+    "search": {
+        "placeholder": "Search Products...",
+        "categories": {
+            "all": "All Departments",
+            "electronics": "Electronics",
+            "fashion": "Fashion",
+            "books": "Books",
+            "home": "Home & Kitchen"
+        }
+    }
+}

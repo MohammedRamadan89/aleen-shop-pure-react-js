@@ -1,0 +1,1 @@
+// favoritesAPI.js

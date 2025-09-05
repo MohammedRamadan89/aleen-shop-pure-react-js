@@ -1,0 +1,37 @@
+{
+    "cancelOrder": "تم إلغاء الطلب بنجاح",
+    "page": {
+        "showing": "عرض {{count}} إشعار",
+        "sample": {
+            "title": "عنوان الإشعار #{{number}}",
+            "body_action_required": "إجراء مطلوب — يرجى التحقق من تفاصيل الطلب وتأكيده.",
+            "body_info_update": "تحديث معلوماتي حول حسابك أو نشاطك الأخير.",
+            "tags": {
+                "security": "الأمان",
+                "orders": "الطلبات",
+                "general": "عام"
+            }
+        }
+    },
+    "empty_state": {
+        "title": "لا توجد إشعارات",
+        "subtitle": "لقد اطلعت على كل شيء."
+    },
+    "item": {
+        "mark_as_read": "تحديد كمقروء",
+        "delete": "حذف"
+    },
+    "filters": {
+        "search_placeholder": "ابحث في الإشعارات",
+        "all": "الكل",
+        "unread": "غير مقروء",
+        "read": "مقروء",
+        "tag_filter": "تصفية حسب الوسم"
+    },
+    "header": {
+        "title": "الإشعارات",
+        "subtitle": "آخر التحديثات والتنبيهات حول حسابك",
+        "mark_all_read": "تعيين الكل كمقروء",
+        "clear_all": "مسح الكل"
+    }
+}

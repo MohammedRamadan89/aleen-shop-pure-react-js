@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": "Main Management",
+    "sales": "Sales & Customers",
+    "system": "System & Settings"
+  },
+  "dashboard": "Dashboard",
+  "products": "Products",
+  "categories": "Categories",
+  "orders": "Orders",
+  "customers": "Customers",
+  "offers": "Offers",
+  "payments": "Payments",
+  "reports": "Reports",
+  "storeSettings": "Store Settings",
+  "analytics": "Analytics",
+  "support": "Support",
+  "settings": "Settings"
+}

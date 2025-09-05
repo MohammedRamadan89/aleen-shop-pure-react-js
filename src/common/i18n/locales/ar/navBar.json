@@ -1,0 +1,44 @@
+{
+  "MyStore": "متجري",
+  "dashboard": "لوحة التحكم",
+  "Home": "الصفحة الرئيسية",
+  "About": "من نحن",
+  "Contact": "اتصل بنا",
+  "Cart": "السلة",
+  "Orders": "الطلبات",
+  "logout": "تسجيل الخروج",
+  "Sign in": "تسجيل الدخول",
+  "my account": "حسابي",
+  "menu": {
+    "profile": {
+      "label": "الملف الشخصي",
+      "description": "عرض وتعديل البيانات الشخصية"
+    },
+    "orders": {
+      "label": "طلباتي",
+      "description": "تتبع الطلبات"
+    },
+    "favorites": {
+      "label": "المفضلة",
+      "description": "المنتجات المحفوظة"
+    },
+    "notifications": {
+      "label": "الإشعارات",
+      "description": "إدارة الإشعارات"
+    },
+    "settings": {
+      "label": "الإعدادات",
+      "description": "تخصيص التطبيق"
+    }
+  },
+  "search": {
+    "placeholder": "ابحث عن المنتجات...",
+    "categories": {
+      "all": "كل الأقسام",
+      "electronics": "الإلكترونيات",
+      "fashion": "الأزياء",
+      "books": "الكتب",
+      "home": "المنزل والمطبخ"
+    }
+  }
+}

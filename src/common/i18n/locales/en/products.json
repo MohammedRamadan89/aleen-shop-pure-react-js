@@ -1,0 +1,106 @@
+{
+    "productCard": {
+        "remove": "Remove",
+        "added": "Added",
+        "addToCart": "Add to Cart",
+        "outOfStock": "Out of Stock",
+        "inStock": "In Stock",
+        "save": "save",
+        "newProduct": "NEW",
+        "discount": "Discount"
+    },
+    "categoryPage": {
+        "main": {
+            "allProducts": {
+                "title": "All Products Collection",
+                "description": "Browse our complete selection of products across all categories and discover what suits you best."
+            },
+            "electronics": {
+                "title": "Electronics Collection",
+                "description": "Discover the latest electronic devices and cutting-edge technology products"
+            },
+            "clothing": {
+                "title": "Clothing Collection",
+                "description": "Explore our collection of fashion and clothing for all occasions"
+            },
+            "food": {
+                "title": "Food Collection",
+                "description": "Find delicious food items and gourmet treats for every taste"
+            }
+        },
+        "subCategories": {
+            "electronics": "Electronics",
+            "clothing": "Clothing",
+            "food": "Food"
+        },
+        "breadcrumb": {
+            "home": "Home"
+        }
+    },
+    "subcategory": {
+        "subcategoryTitle": "Browse by Subcategory"
+    },
+    "viewAll": "View All",
+    "available": "Products Available",
+    "categoryOverview": "Category Overview",
+    "total": "Total Products",
+    "avgPrice": "Average Price",
+    "avgRating": "Average Rating",
+    "onSale": "On Sale",
+    "priceRange": "Price Range",
+    "showingProducts": "Showing {{start}}-{{end}} of {{total}} products",
+    "filters": {
+        "searchPlaceholder": "Search products...",
+        "sortBy": "Sort By",
+        "sort": {
+            "name": "Name (A-Z)",
+            "priceLow": "Price (Low to High)",
+            "priceHigh": "Price (High to Low)",
+            "rating": "Highest Rated"
+        },
+        "filter": "Filter",
+        "all": "All Products",
+        "under50": "Under $50",
+        "50to100": "$50 - $100",
+        "over100": "Over $100",
+        "highRated": "4.5+ Stars",
+        "inStock": "In Stock",
+        "onSale": "On Sale"
+    },
+    "buyNow": "Buy Now",
+    "productDetails": {
+        "details": {
+            "title": "Product Details",
+            "description": "Made from the finest blended cotton for superior comfort and ideal warmth at all times."
+        },
+        "quality": {
+            "title": "Quality Guarantee",
+            "description": "We guarantee the product quality and offer replacement within 30 days of purchase."
+        },
+        "reviews": {
+            "title": "Customer Reviews",
+            "description": "Number of reviews: {{count}} Average rating: {{rating}}"
+        },
+        "breadcrumbs": {
+            "home": "Home"
+        },
+        "notFound": "Product not found",
+        "notFoundDescription": "The requested product does not exist or the link may be incorrect",
+        "goBack": "Go Back"
+    },
+    "reviews": "reviews",
+    "productOptions": {
+        "size": "Size",
+        "color": "Color",
+        "quantity": "Quantity"
+    },
+    "colors": {
+        "Black": "Black",
+        "White": "White",
+        "Gray": "Gray",
+        "Navy": "Navy",
+        "red": "Red",
+        "blue": "Blue",
+        "green": "Green"
+    }
+}

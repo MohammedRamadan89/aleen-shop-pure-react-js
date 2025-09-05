@@ -1,0 +1,38 @@
+{
+  "about": {
+    "title": "About Our Store",
+    "description": "We provide high quality products with fast delivery and excellent customer service. Our mission is to make your shopping experience enjoyable and hassle-free."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "123 Store Street, City, Country",
+    "phone": "+1 234 567 890",
+    "email": "info@yourstore.com"
+  },
+  "newsletter": {
+    "title": "Subscribe to our newsletter",
+    "subscribeText": "Subscribe to our newsletter",
+    "placeholder": "Your email",
+    "button": "Subscribe"
+  },
+  "bottom": {
+    "rights": "© {{year}} Your Store Name. All rights reserved.",
+    "payments": "Payment Methods: Visa • MasterCard • PayPal • Apple Pay"
+  },
+  "quickLinks": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "shipping": "Shipping Policy"
+  },
+  "customerService": {
+    "account": "My Account",
+    "tracking": "Order Tracking",
+    "wishlist": "Wishlist",
+    "returns": "Returns",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  }
+}

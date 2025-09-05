@@ -1,0 +1,37 @@
+{
+    "cancelOrder": "Order Successfully canceled",
+    "page": {
+        "showing": "Showing {{count}} notifications",
+        "sample": {
+            "title": "Notification title #{{number}}",
+            "body_action_required": "Action required — please check the order details and confirm.",
+            "body_info_update": "Informational update about your account or recent activity.",
+            "tags": {
+                "security": "Security",
+                "orders": "Orders",
+                "general": "General"
+            }
+        }
+    },
+    "empty_state": {
+        "title": "No notifications",
+        "subtitle": "You're all caught up."
+    },
+    "item": {
+        "mark_as_read": "Mark as read",
+        "delete": "Delete"
+    },
+    "filters": {
+        "search_placeholder": "Search notifications",
+        "all": "All",
+        "unread": "Unread",
+        "read": "Read",
+        "tag_filter": "Tag filter"
+    },
+    "header": {
+        "title": "Notifications",
+        "subtitle": "Recent updates and alerts about your account",
+        "mark_all_read": "Mark all read",
+        "clear_all": "Clear all"
+    }
+}

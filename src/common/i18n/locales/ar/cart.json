@@ -1,0 +1,26 @@
+{
+    "cartEmpty": {
+        "goBack": "رجوع",
+        "emptyTitle": "سلة التسوق فارغة",
+        "emptyMessage": "يبدو أنك لم تضف أي منتجات بعد.",
+        "browse": "تصفح المنتجات"
+    },
+    "cartItems": {
+        "size": "الحجم",
+        "color": "اللون",
+        "removeItem": "إزالة {{name}} من السلة",
+        "increase": "زيادة الكمية",
+        "decrease": "إنقاص الكمية"
+    },
+    "goBack": "الرجوع",
+    "shoppingCart": "سلة التسوق",
+    "itemsCount": "{{count}} عنصر",
+    "itemsCount_plural": "{{count}} عناصر",
+    "cartSummary": "ملخص الطلب",
+    "subtotal": "المجموع الفرعي",
+    "shipping": "الشحن",
+    "free": "مجانًا",
+    "tax": "الضريبة",
+    "total": "الإجمالي",
+    "proceedCheckout": "إتمام عملية الشراء"
+}

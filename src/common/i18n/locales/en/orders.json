@@ -1,0 +1,200 @@
+{
+    "deletOrders": "Delete all requests (development mode)",
+    "trackOrder": "Track Order",
+    "status": {
+        "canceled": "canceled",
+        "delivered": "delivered",
+        "shipped": "shipped",
+        "processing": "processing"
+    },
+    "common": {
+        "paymentMethod": "Payment Method",
+        "buttons": {
+            "showDetails": "Show Details",
+            "cancelOrder": "Cancel Order"
+        },
+        "total": "Total",
+        "myOrders": "My Orders",
+        "all": "all"
+    },
+    "dialog": {
+        "title": "Confirm order cancellation",
+        "content": "Are you sure you want to cancel this order?",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+    },
+    "orderSummary": {
+        "title": "Order Summary",
+        "quantity": "Quantity",
+        "size": "Size",
+        "color": "Color",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "free": "Free",
+        "total": "Total",
+        "placeOrder": "Place Order"
+    },
+    "checkout": {
+        "title": "Checkout",
+        "steps": {
+            "shipping": "Shipping",
+            "payment": "Payment",
+            "review": "Review"
+        },
+        "buttons": {
+            "back": "Back",
+            "next": "Next",
+            "placeOrder": "Place Order"
+        },
+        "order": {
+            "trackingNumber": "Tracking Number"
+        },
+        "shippingMethods": {
+            "standard": "Standard Delivery (Free)",
+            "express": "Express Delivery ($9.99)"
+        },
+        "paymentMethods": {
+            "credit": "Credit Card",
+            "paypal": "PayPal",
+            "cod": "Cash on Delivery"
+        },
+        "shipping": {
+            "address": "Shipping Address",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "addressField": "Address",
+            "city": "City",
+            "zipCode": "ZIP / Postal Code",
+            "phone": "Phone Number",
+            "country": "Country",
+            "countries": {
+                "us": "United States",
+                "sa": "Saudi Arabia",
+                "eg": "Egypt",
+                "ae": "United Arab Emirates"
+            },
+            "method": "Shipping Method",
+            "methods": {
+                "standard": "Standard Delivery",
+                "express": "Express Delivery"
+            },
+            "free": "Free",
+            "expressCost": "$9.99",
+            "expressDelivery": "Express Delivery"
+        },
+        "paymentStep": {
+            "paymentMethod": "Payment Method",
+            "credit": "Credit / Debit Card",
+            "paypal": "PayPal",
+            "cod": "Cash on Delivery",
+            "cardholderName": "Cardholder Name",
+            "cardNumber": "Card Number",
+            "expiryDate": "Expiry Date",
+            "cvv": "CVV",
+            "paypalEmail": "PayPal Email",
+            "deliveryNote": "Delivery Note (optional)",
+            "placeholder": {
+                "cardholderName": "e.g. Jawad Ramadan",
+                "cardNumber": "1234567812345678",
+                "expiryDate": "MM/YY",
+                "cvv": "123",
+                "paypalEmail": "you@example.com",
+                "deliveryNote": "e.g. Call before arriving"
+            }
+        },
+        "review": {
+            "shippingInfo": "Shipping Information",
+            "shippingMethod": "Shipping Method",
+            "paymentMethod": "Payment Method",
+            "orderItems": "Order Items"
+        }
+    },
+    "payment": {
+        "credit": "Credit Card",
+        "paypal": "PayPal",
+        "cod": "Cash on Delivery"
+    },
+    "countries": {
+        "sa": "Saudi Arabia",
+        "eg": "Egypt",
+        "ae": "United Arab Emirates",
+        "us": "United States"
+    },
+    "orderConfirmation": {
+        "back": "Go back",
+        "backToHome": "Back to HOME",
+        "successMessage": "Success! 🎉",
+        "orderConfirmed": "Thank you! Your order has been confirmed and will be shipped soon",
+        "orderNumber": "Order number"
+    },
+    "orderContent": {
+        "noOrderItems": "No order items found",
+        "orderDetails": "Order Details",
+        "itemsInOrder": "items in your order",
+        "quantity": "Quantity",
+        "size": "Size",
+        "color": "Color",
+        "invoiceSummary": "Invoice Summary",
+        "subtotal": "Subtotal",
+        "shippingCost": "Shipping Cost",
+        "free": "Free",
+        "total": "Total"
+    },
+    "orderNotFound": {
+        "errorTitle": "⚠️ Error",
+        "errorSubtitle": "Requested page not found",
+        "errorDescription": "It seems you reached this page by mistake or the data has expired",
+        "orderErrorSubtitle": "No order details found",
+        "orderErrorDescription": "The request does not exist or has expired.",
+        "noOrdersYet": "No Orders yet",
+        "noOrdersDescription": "Start shopping now and enjoy a wonderful experience.",
+        "backToHome": "Back to HOME",
+        "backToMyOrders": "Back To My Orders",
+        "browseProducts": "Browse Products"
+    },
+    "orderSidebar": {
+        "orderStatus": "Order Status",
+        "orderDetails": "Order Details",
+        "orderNumber": "Order Number",
+        "orderDate": "Order Date",
+        "trackingNumber": "Tracking Number",
+        "whatHappensNow": "What happens now?",
+        "emailConfirmationMessage": "We will send a confirmation email with tracking details once your order is shipped.",
+        "continueShopping": "Continue Shopping",
+        "viewAllOrders": "View All Orders"
+    },
+    "paymentInfo": {
+        "shippingInfo": "Shipping Information",
+        "recipientName": "Recipient Name",
+        "address": "Address",
+        "shippingMethod": "Shipping Method",
+        "shippingExpress": "Express Shipping (2-3 business days)",
+        "shippingStandard": "Standard Shipping (5-7 business days)"
+    },
+    "shippingInfo": {
+        "paymentInfo": "Payment Information",
+        "paymentMethod": "Payment Method",
+        "creditCard": "Credit Card",
+        "cashOnDelivery": "Cash on Delivery",
+        "cardholderName": "Cardholder Name",
+        "cardNumber": "Card Number",
+        "expirationDate": "Expiration Date"
+    },
+    "orderDetails": {
+        "back": "Back",
+        "orderInfo": "Order Information",
+        "orderNumber": "Order Number",
+        "orderDate": "Order Date",
+        "trackingNumber": "Tracking Number",
+        "finalTotal": "Final Total",
+        "delivered": "Delivered",
+        "shipped": "Shipped",
+        "processing": "Processing",
+        "canceled": "Canceled"
+    },
+    "orderShipping": {
+        "method": "Shipping Method",
+        "express": "Express Shipping",
+        "standard": "Standard Shipping"
+    }
+}
