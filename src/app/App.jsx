@@ -1,6 +1,5 @@
 // src/app/App.jsx
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import Box from "@mui/material/Box";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -23,29 +22,32 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-        <Router>
-          <UseStepScrollToTop />
-          <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-            <Box sx={{ flex: 1 }}>
-              <AppRoutes />
-            </Box>
+      <UseStepScrollToTop />
+      <Box sx={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+        backgroundColor: "background.default"
+      }}>
+        <Box sx={{ flex: 1 }}>
+          <AppRoutes />
+        </Box>
 
-            <Footer />
-          </Box>
+        <Footer />
+      </Box>
 
-          <ToastContainer
-            position="top-right"
-            autoClose={3000}
-            hideProgressBar={false}
-            newestOnTop
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-            theme="light"
-          />
-        </Router>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </ThemeProvider>
   );
 }

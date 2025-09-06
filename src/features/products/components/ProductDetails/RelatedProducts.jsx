@@ -59,7 +59,7 @@ const RelatedProducts = ({ product, maxProducts = 4 }) => {
           <Grid size={{ xs:12, sm:6, md:3 }} key={relatedProduct.id}>
             <ProductCard
               product={relatedProduct}
-              isFavorite={favorites.some(fav => fav.id === relatedProduct.id)}
+              isFavorite={favorites?.items?.some(fav => fav.id === relatedProduct.id) || false}
               isInCart={isInCart(relatedProduct)}
               onAddToCart={handleAddToCart}
               onRemoveFromCart={handleRemoveFromCart}

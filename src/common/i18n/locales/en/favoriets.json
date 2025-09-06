@@ -1,0 +1,17 @@
+{
+    "title": "Favorites",
+    "count": "You have {{count}} item(s) in your favorites",
+    "search_placeholder": "Search in favorites...",
+    "view_grid": "Grid",
+    "view_list": "List",
+    "categories": {
+        "all": "All",
+        "electronics": "Electronics"
+    },
+    "sort": {
+        "button": "Sort",
+        "newest": "Newest",
+        "price_high": "Highest Price",
+        "price_low": "Lowest Price"
+    }
+}

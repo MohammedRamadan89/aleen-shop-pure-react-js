@@ -1,0 +1,17 @@
+{
+    "title": "المفضلة",
+    "count": "لديك {{count}} منتج في قائمة المفضلة",
+    "search_placeholder": "البحث في المفضلة...",
+    "view_grid": "شبكة",
+    "view_list": "قائمة",
+    "categories": {
+        "all": "الكل",
+        "electronics": "إلكترونيات"
+    },
+    "sort": {
+        "button": "ترتيب",
+        "newest": "الأحدث",
+        "price_high": "الأعلى سعراً",
+        "price_low": "الأقل سعراً"
+    }
+}

@@ -25,6 +25,7 @@ const { t } = useTranslation();
   return (
     <Box
       sx={{
+        mt:2,
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',

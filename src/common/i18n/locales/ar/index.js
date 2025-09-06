@@ -6,7 +6,8 @@ import footer from './footer.json';
 import common from './common.json';
 import cart from './cart.json';
 import orders from './orders.json';
-import notifications from './notifications.json'
+import notifications from './notifications.json';
+import favorites from './favoriets.json';
 
 export default {
   navBar,
@@ -18,4 +19,5 @@ export default {
   cart,
   orders,
   notifications,
+  favorites,
 };

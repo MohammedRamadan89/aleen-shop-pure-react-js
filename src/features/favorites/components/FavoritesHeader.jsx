@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography, Paper, Badge } from "@mui/material";
 import { styled, alpha, useTheme } from "@mui/material/styles";
 import { Favorite } from "@mui/icons-material";
+import { useTranslation } from "react-i18next";
 
 const HeaderCard = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(4),
@@ -13,13 +14,17 @@ const HeaderCard = styled(Paper)(({ theme }) => ({
 
 const FavoritesHeader = ({ count }) => {
   const theme = useTheme();
+  const { t } = useTranslation();
+
   return (
-    <HeaderCard sx={{mt:3}}>
-      <Box display="flex" justifyContent="space-between" alignItems="center" >
+    <HeaderCard sx={{ mt: 3 }}>
+      <Box display="flex" justifyContent="space-between" alignItems="center">
         <Box>
-          <Typography variant="h4" fontWeight={800}>المفضلة</Typography>
+          <Typography variant="h4" fontWeight={800}>
+            {t("favorites.title")}
+          </Typography>
           <Typography variant="body1" color="text.secondary">
-            لديك {count} منتج في قائمة المفضلة
+            {t("favorites.count", { count })}
           </Typography>
         </Box>
         <Badge badgeContent={count} color="primary" max={99}>

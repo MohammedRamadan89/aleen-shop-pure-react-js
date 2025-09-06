@@ -170,12 +170,16 @@ const MainLayout = ({ children }) => {
         component="main"
         sx={{
           flexGrow: 1,
-          p: 3,
+          p: 0,
           width: "100%",
+          minHeight: "100vh",
+          backgroundColor: "#f5f5f5",
         }}
       >
         <Toolbar />
-        {children}
+        <Box sx={{ p: 2 }}>
+          {children}
+        </Box>
       </Box>
     </Box>
   );

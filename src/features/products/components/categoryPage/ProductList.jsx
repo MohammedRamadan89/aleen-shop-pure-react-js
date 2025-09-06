@@ -12,7 +12,7 @@ const ProductList = ({ products, favorites, onAddToCart, onRemoveFromCart,
                     onAddToCart={onAddToCart}
                     onRemoveFromCart={onRemoveFromCart}
                     product={product}
-                    isFavorite={favorites.some(fav => fav.id === product.id)}
+                    isFavorite={favorites?.items?.some(fav => fav.id === product.id) || false}
                     onToggleFavorite={onToggleFavorite}
                     isInCart={isInCart(product)}
                     onPreview={handlePreview}

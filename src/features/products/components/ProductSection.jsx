@@ -68,7 +68,7 @@ const { handleAddToCart, handleRemoveFromCart, isInCart } = useCart();
               isInCart={isInCart(product)}
               onAddToCart={handleAddToCart}
               onRemoveFromCart={handleRemoveFromCart}
-              isFavorite={favorites.some(fav => fav.id === product.id)}
+              isFavorite={favorites?.items?.some(fav => fav.id === product.id) || false}
               onToggleFavorite={handleToggleFavorite}
               onPreview={() => navigate(`/product/${product.id}`)}
             />

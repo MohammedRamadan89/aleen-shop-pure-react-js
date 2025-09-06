@@ -12,21 +12,21 @@ import "swiper/css/autoplay";
 // Sample images (replace with your actual image paths)
 const slides = [
   {
-    image: "/images/banner1.jpg",
+    image: "/aleen-shop-pure-react-js/images/banner1.jpg",
     alt: "Summer Collection",
     title: "New Season Arrivals",
     subtitle: "Discover our latest collection",
     cta: "Shop Now"
   },
   {
-    image: "/images/banner2.jpg",
+    image: "/aleen-shop-pure-react-js/images/banner2.jpg",
     alt: "Special Offers",
     title: "Limited Time Offers",
     subtitle: "Up to 50% off selected items",
     cta: "View Deals"
   },
   {
-    image: "/images/banner3.jpg",
+    image: "/aleen-shop-pure-react-js/images/banner3.jpg",
     alt: "Premium Quality",
     title: "Luxury Redefined",
     subtitle: "Experience unmatched quality",

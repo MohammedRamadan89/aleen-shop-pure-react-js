@@ -3,25 +3,24 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const favoritesSlice = createSlice({
   name: 'favorites',
-  initialState: [],
+  initialState: { items: [] },
   reducers: {
     addToFavorites: (state, action) => {
-      if (!state.find(p => p.id === action.payload.id)) {
-        state.push(action.payload);
+      if (!state.items.find(p => p.id === action.payload.id)) {
+        state.items.push(action.payload);
       }
     },
     removeFromFavorites: (state, action) => {
-      return state.filter(product => product.id !== action.payload);
+      state.items = state.items.filter(product => product.id !== action.payload);
     },
     toggleFavorite: (state, action) => {
-      const index = state.findIndex(p => p.id === action.payload.id);
+      const index = state.items.findIndex(p => p.id === action.payload.id);
       if (index >= 0) {
-        return state.filter(p => p.id !== action.payload.id);
+        state.items = state.items.filter(p => p.id !== action.payload.id);
       } else {
-        state.push(action.payload);
+        state.items.push(action.payload);
       }
     }
-
   },
 });
 
